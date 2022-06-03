@@ -1,21 +1,11 @@
 ---
 emoji: 🧢
-title: 쉽고 빠르게 나만의 개츠비(Gatsby) 블로그 만들기
-date: '2021-03-22 23:00:00'
-author: 줌코딩
-tags: blog gatsby theme 개츠비 테마
-categories: 블로그 featured
+title: gatsby를 활용한 블로그 사용법
+date: '2022-06-03 23:00:00'
+author: 백서연
+tags: blog 사용법 기능
+categories: featured
 ---
-
-## 👋 소개
-
-블로그를 직접 운영하면서 조금씩 그려봤던 이상적인 개발 블로그 테마를 Gatsby를 통해 만들어보게 되었습니다.  
-이 테마가 블로그를 운영하고자 하시는 분들에게 자신의 이야기를 잘 담을 수 있는 공간이 되었으면 좋겠습니다.🙌
-
-블로그 테마가 맘에 드셨다면 아래 과정을 통해 자신의 블로그를 만들어보시길 바랍니다!
-
-> 혹시 만드시는 과정에서 궁금하신 점이나 어려움이 있으시다면 [이슈](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/new)를 통해 문의 남겨주세요!  
-> [스타](https://github.com/zoomKoding/zoomkoding.com)는 블로그 테마를 지속적으로 발전시키는데 큰 힘이 됩니다!⭐️
 
 ## 🚀 시작하기
 
@@ -88,16 +78,16 @@ comments: {
 
 ```js
 author: {
-    name: '정진혁',
+    name: '백서연',
     bio: {
       role: '개발자',
       description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
-      thumbnail: 'zoomkoding.gif',
+      thumbnail: 'sample.gif',
     },
     social: {
-      github: 'https://github.com/zoomKoding',
-      linkedIn: 'https://www.linkedin.com/in/jinhyeok-jeong-800871192',
-      email: 'zoomkoding@gmail.com',
+      github: 'https://github.com/seoyeon-baek',
+      linkedIn: 'https://www.linkedin.com/in/',
+      email: 'w2032@e-mirim.hs.kr',
     },
 },
 ```
@@ -117,9 +107,9 @@ about 페이지 또한 gatsby-meta-config.js를 통해 생성됩니다. about �
     date: '2021.02 ~',
     activity: '개인 블로그 개발 및 운영',
     links: {
-        post: '/gatsby-starter-zoomkoding-introduction',
-        github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-        demo: 'https://www.zoomkoding.com',
+        post: '/test-blog',
+        github: 'https://github.com/seoyeon-baek',
+        demo: 'https://seoyeon-baek.github.io',
     },
 },
 ```
@@ -129,18 +119,17 @@ about 페이지 또한 gatsby-meta-config.js를 통해 생성됩니다. about �
 마찬가지로 각 project 정보를 배열로 제공해주시면 입력하신 순서에 맞춰서 projects section에 보여지게 됩니다.
 
 ```js
-{
-  title: '개발 블로그 테마 개발',
-  description:
-    '개발 블로그를 운영하는 기간이 조금씩 늘어나고 점점 많은 생각과 경험이 블로그에 쌓아가면서 제 이야기를 담고 있는 블로그를 직접 만들어보고 싶게 되었습니다. 그동안 여러 개발 블로그를 보면서 좋았던 부분과 불편했던 부분들을 바탕으로 레퍼런스를 참고하여 직접 블로그 테마를 만들게 되었습니다.',
-  techStack: ['gatsby', 'react'],
-  thumbnailUrl: 'blog.png',
-  links: {
-    post: '/gatsby-starter-zoomkoding-introduction',
-    github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
-    demo: 'https://www.zoomkoding.com',
-  }
-}
+ {
+        title: '프로젝트1',
+        description: '프로젝트의 설명을 적는 곳입니다.',
+        techStack: ['react', 'javascript'],
+        thumbnailUrl: 'emonga.png',
+        links: {
+          post: '',
+          github: '',
+          demo: '',
+        },
+      },
 ```
 
 <br/>
@@ -165,8 +154,8 @@ index.md 파일의 상단에는 아래와 같이 emoji, title, date, author, tag
 ---
 emoji: 🧢
 title: Getting Started
-date: '2021-03-22 23:00:00'
-author: 줌코딩
+date: '2022-06-04 23:00:00'
+author: 백서연
 tags: tutorial
 categories: tutorial
 ---
@@ -186,13 +175,6 @@ categories: tutorial
 
     ```toc
     ```
-
-### 💡 버그 리포트 & 문의
-
-궁금하신 점이 있으시다면 [이슈](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/new)로 남겨주시면 최대한 빠르게 답변 드리도록 하겠습니다!🙋‍♂️
-
-> 🤔 혹시 특정 기능이 없어서 테마 사용을 망설이시거나 제안하고 싶으신 기능이 있으시다면,  
-> 👉 [여기](https://github.com/zoomKoding/zoomkoding-gatsby-blog/issues/40)에 댓글 남겨주세요! 적극적으로 반영하겠습니다 :)
 
 ```toc
 
