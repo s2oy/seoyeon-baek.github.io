@@ -4,7 +4,7 @@ title: gatsby를 활용한 블로그 사용법
 date: '2022-06-03 23:00:00'
 author: 백서연
 tags: blog 사용법 기능
-categories: featured
+categories: FEATURE
 ---
 
 ## 🚀 시작하기

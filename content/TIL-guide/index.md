@@ -4,7 +4,7 @@ title: Today I Learned
 date: '2022-05-24 15:21:00'
 author: 서연
 tags: TIL FEATURED 각오
-categories: til featured
+categories: TIL FEATURE
 ---
 
 # TIL (Today I Learned)
